@@ -1,17 +1,33 @@
-# ease_app
+# EASE — Elderly Assistance & Support Ecosystem
+EASE is a Flutter-based mobile application designed to make everyday tasks easier and safer for elderly people through a simple, accessible interface.
 
-A new Flutter project.
+## Features
+- **Emergency Assistance:** Quick access to India's emergency number, 112, with a confirmation prompt.
+- **AI Assistant:** An assistant interface with initial voice interaction features.
+- **My Reminders:** Add and delete reminders, with local data persistence.
+- **Contacts:** A dedicated section for managing contacts.
+
+## Tech Stack
+- Flutter
+- Dart
+- SharedPreferences
+- Speech-to-Text
+- Text-to-Speech
+- URL Launcher
 
 ## Getting Started
+1. Install Flutter and set up your development environment.
+2. Clone this repository.
+3. Open the project folder in VS Code.
+4. Run the following commands:
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Status
+EASE is under active development. Features and functionality will continue to improve as development progresses.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Vision
+To make technology more accessible to elderly people by providing a simple, voice-friendly interface for everyday assistance and emergency support.
